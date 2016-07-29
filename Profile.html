@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Profile</title>
+
+
+		<style type="text/css">
+
+		h1{
+			font-size: 50px !important;
+			font-family: "My Custom Font";
+		}
+						
+			</style>
+
+
+	<style>
+	 
+	header, footer {
+	    padding: 1em;
+	    color: white;
+	    background-color: #128760;
+	    clear: left;
+	    text-align: center;
+	}
+
+	nav {
+	    float: left;
+	    max-width: 160px;
+	    margin: 0;
+	    padding: 1em;
+	}
+
+	nav ul {
+	    list-style-type: none;
+	    padding: 0;
+	}
+	   
+	nav ul a {
+	    text-decoration: none;
+	}
+	}
+	</style>
+	</head>
+	<body>
+
+
+	<header>
+	   <h2>TYWLS Tech Explorers</h2>
+	</header>
+
+
+	<!-- TABS -->
+	<head>
+	<style>
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: white;
+	}
+
+	li {
+	    float: left;
+	}
+
+	li a, .dropbtn {
+	    display: inline-block;
+	    color: black;
+	    text-align: center;
+	    padding: 14px 16px;
+	    font-family: verdana;
+	    text-decoration: none;
+	}
+
+	li a:hover, .dropdown:hover .dropbtn {
+	    background-color: grey;
+	}
+
+	li.dropdown {
+	    display: inline-block;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	}
+
+	.dropdown-content a:hover {background-color: #d0d0d0}
+
+	.show {display:block;}
+	</style>
+
+
+
+
+		</head>
+
+
+
+		<ul>
+			<li><a href="file:///Users/admin/Desktop/Renaissance-App/ExplorePage(1).html">Explore</a></li>
+		   <li class="dropdown">
+		    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Genres</a>
+		    <div class="dropdown-content" id="myDropdown">
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/paintings.html"> Paintings </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/drawings.html"> Drawings </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/photography.html"> Photography </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/manga.html"> Manga </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/origami.html"> Origami </a>
+		    </li>
+		    <!-- ALL OF THE TABS-->
+		    <li><a href="file:///Users/admin/Desktop/Renaissance-App/about.html">About</a></li>
+		  <!--li><a class="active" href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile(%3F).html">Profile</a></li-->
+		  <li><a href="file:///Users/admin/Desktop/Renaissance-App/signup.html">Sign up</a></li>
+		  <li><a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile.html">Log out</a></li>
+
+
+		    </div>
+		</ul>
+
+		<script>
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		window.onclick = function(e) {
+		  if (!e.target.matches('.dropbtn')) {
+
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    for (var d = 0; d < dropdowns.length; d++) {
+		      var openDropdown = dropdowns[d];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+
+
+
+		</script>
+	
+
+
+
+</head>
+	
+<body>
+
+	<div data-role="main" class="ui-content">
+
+		<form method="post" action="demoform.asp">
+
+		<br>
+
+	<!--Default User Icon-->
+	<img src="file://localhost/Users/admin/Downloads/Screenshot_2016-07-21-11-27-51-1.png" alt="Default Icon" width="200" height="200" align="left" hspace="40">
+
+		<br><br><br><br>
+
+    	   <a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceMobileEditProfile.html"><input type="submit" data-inline="true" value="Edit Your Profile"></a>
+
+
+    	<br><br>
+
+    <!--DESCRIPTION-->
+
+	<div><p>We are part of the tywls tech explorers and this is our app!</p></div>
+
+	<br><br><br>
+	
+<hr>
+
+<!--UPLOADED PHOTOS-->
+
+	<br>
+		<div>
+			
+
+			<img src="file://localhost/Users/admin/Library/Containers/com.apple.Preview/Data/Downloads/20160728_131210(0)-1.jpg" alt="" style="width:304px;height:228px;">
+
+  			<img src="file://localhost/Users/admin/Library/Containers/com.apple.Preview/Data/Downloads/DSCN1338.JPG" style="width:304px;height:228px;">
+
+  			<img src="file://localhost/Users/admin/Library/Containers/com.apple.Preview/Data/Downloads/20160728_131235(0).jpg" style="width:404px;height:228px;">
+
+  			<img src="file:///Users/admin/Library/Containers/com.apple.Preview/Data/Downloads/IMG_20160727_175639.jpg" style="width:304px; height:228px;">
+
+		</div>
+
+<!--center>
+	 <a href="file:///Users/admin/Desktop/Renaissance-App/ExplorePage(1).html"><input type="submit" data-inline="true" value="Go Back"></a>
+</center-->
+
+
+</body>	
+
+</html>
