@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #128760;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+   <h1>Renaissance</h1>
+</header>
+
+
+<!-- TABS -->
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: verdana;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #d0d0d0}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+<ul>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Genres</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="file:///Users/admin/Desktop/Renaissance-App/paintings.html"> Paintings </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/drawings.html"> Drawings </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/photography.html"> Photography </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/manga.html"> Manga </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/origami.html"> Origami </a>
+    </li>
+    <!-- ALL OF THE TABS-->
+    <li><a href="file:///Users/admin/Desktop/Renaissance-App/about.html">About</a></li>
+  <li><a class="active" href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile(%3F).html">Profile</a></li>
+  <li><a href="file:///Users/admin/Desktop/Renaissance-App/signup.html">Sign up</a></li>
+  <li><a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile.html">Log out</a></li>
+
+
+    </div>
+</ul>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+</script>
+
+
+<style>
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>
+</head>
+
+<body>
+
+  <h2>Shopping Cart</h2>
+
+ <b> <hr> </b>
+<div>
+  <img src="file:///Users/admin/Downloads/20151215_120117%20(1).jpg" style="width:304px; height:228px;">
+
+  <p><b>Birds in New York</b> <br>$8.99</p>
+
+<br>
+
+  <!--img scr="file://localhost/Users/admin/Library/Containers/com.apple.Preview/Data/Downloads/20160728_131210(0)-1.jpg" style="width:290px; height:463px;">
+
+  <p><b>Midnight</b> <br>$4.99</p-->
+</div>
+
+
+<br>
+<!--center>
+  <a href="file:///Users/admin/Desktop/Renaissance-App/ExplorePage(1).html"><input type="submit" data-inline="true" value="Go Back"></a>
+</center-->
+
+
+</body>
+</html>
+
+
