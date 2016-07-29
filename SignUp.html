@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+	<html>
+
+		<head>
+
+		<style type="text/css">
+
+			h1{
+				font-size: 50px !important;
+				font-family: "My Custom Font";
+
+			}
+			input{
+				display: block;
+				padding: 5px;
+				margin: 20px;
+			}
+			h2{
+				font-size: 50%;
+			}
+
+		</style>
+
+		<title>Renaissance</title>
+
+		<style>
+		 
+		header, footer {
+		    padding: 1em;
+		    color: white;
+		    background-color: #128760;
+		    clear: left;
+		    text-align: center;
+		}
+
+		nav {
+		    float: left;
+		    max-width: 160px;
+		    margin: 0;
+		    padding: 1em;
+		}
+
+		nav ul {
+		    list-style-type: none;
+		    padding: 0;
+		}
+		   
+		nav ul a {
+		    text-decoration: none;
+		}
+		}
+		</style>
+		</head>
+		<body>
+
+
+		<header>
+		   <h1><img src="file:///Users/admin/Library/Containers/com.apple.Preview/Data/Desktop/20160722_112023.gif" style="width:120px; height:120px;">enaissance</h1>
+		</header>
+
+
+		<!-- TABS -->
+		<head>
+		<style>
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: white;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a, .dropbtn {
+		    display: inline-block;
+		    color: black;
+		    text-align: center;
+		    padding: 14px 16px;
+		    font-family: verdana;
+		    text-decoration: none;
+		}
+
+		li a:hover, .dropdown:hover .dropbtn {
+		    background-color: grey;
+		}
+
+		li.dropdown {
+		    display: inline-block;
+		}
+
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: #f9f9f9;
+		    min-width: 160px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		    text-align: left;
+		}
+
+		.dropdown-content a:hover {background-color: #d0d0d0}
+
+		.show {display:block;}
+		</style>
+		</head>
+		<body>
+
+		<ul>
+		   <li class="dropdown">
+		    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Genres</a>
+		    <div class="dropdown-content" id="myDropdown">
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/paintings.html"> Paintings </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/drawings.html"> Drawings </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/photography.html"> Photography </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/manga.html"> Manga </a>
+		      <a href="file:///Users/admin/Desktop/Renaissance-App/origami.html"> Origami </a>
+		    </li>
+		    <!-- ALL OF THE TABS-->
+		    <li><a href="file:///Users/admin/Desktop/Renaissance-App/about.html">About</a></li>
+		  <li><a class="active" href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile(%3F).html">Profile</a></li>
+		  <li><a href="file:///Users/admin/Desktop/Renaissance-App/shopping.html">Shopping Cart</a></li>
+		  <li><a href="file:///Users/admin/Desktop/Renaissance-App/signup.html">Sign up</a></li>
+		  <li><a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile.html">Log out</a></li>
+
+		    </div>
+		</ul>
+
+		<script>
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		window.onclick = function(e) {
+		  if (!e.target.matches('.dropbtn')) {
+
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    for (var d = 0; d < dropdowns.length; d++) {
+		      var openDropdown = dropdowns[d];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+		</script>
+
+		
+
+		<center>
+			<!--First Page-->
+			<div data-role="pagetwo" id="SecondPage">
+
+				<div style="background-color: #128760" data-role="header">
+				    <!--h1 style="color: #fffdff">Renaissance</h1-->
+				 </div>
+
+				 <!--This is where all the parts of my website goes.-->
+				 <div data-role="main" class="ui-content">
+				 	
+				   <p>Sign Up</p>
+				   <!--The "A" Element creates a link, the "href is a reference"-->
+				   <a href=""></a>
+				  	    <input type="About" value="" placeholder="Name">
+				  	    <input type="About" value="" placeholder="Email Address">
+				  	    <input type="About" value="" placeholder="Phone Number">
+				  	    <input type="About" value="" placeholder="Date of Birth">
+				  	    <input type="About" value="" placeholder="Username">
+				  	    <input type="About" value="" placeholder="Password">
+				  	    <input type="About" value="" placeholder="Confirm Password">
+
+				  	   <a href="file:///Users/admin/Desktop/Renaissance-App/ExplorePage(1).html"><input type="submit" data-inline="true" value="Submit"></a>
+				  	</style>
+
+				 </div>
+
+				 <!--Only the footer-->
+				 <div data-role="footer">
+				   <h2>Terms of Use</h2>
+				   <br>
+				 </div>
+
+			</div>
+		</center>
+		</body>
